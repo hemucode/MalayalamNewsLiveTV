@@ -1,0 +1,4 @@
+    <string name="App_ID">ca-app-pub-3494707665933635~4802672131</string>
+    <string name="Banner_Ads_1">ca-app-pub-3494707665933635/5161764787</string>
+    <string name="Banner_Ads_2">ca-app-pub-3494707665933635/9919267441</string>
+    <string name="InterstitialAd">ca-app-pub-3494707665933635/9815325663</string>
