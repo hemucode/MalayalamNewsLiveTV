@@ -19,6 +19,7 @@
 
     <WebView
         android:id="@+id/webView"
+        android:visibility="invisible"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +72,8 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
 
             <ImageView
                 android:id="@+id/webLink"
@@ -84,6 +86,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText"
                 app:srcCompat="@drawable/web" />
 
             <ImageView
@@ -97,7 +100,8 @@
                 app:layout_constraintEnd_toStartOf="@+id/webLink"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/yt" />
+                app:srcCompat="@drawable/yt"
+                android:importantForAccessibility="no" />
 
             <ImageView
                 android:id="@+id/fbLink"
@@ -110,6 +114,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/youtubeLink"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
+                android:importantForAccessibility="no"
                 app:srcCompat="@drawable/fb" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -131,7 +136,8 @@
         android:ellipsize="marquee"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        tools:ignore="HardcodedText" />
 
 
     <com.google.android.gms.ads.AdView

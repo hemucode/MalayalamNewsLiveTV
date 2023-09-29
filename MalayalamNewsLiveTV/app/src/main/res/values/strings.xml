@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Malayalam News Live</string>
     <string name="short_name">വാർത്തകൾ</string>
-    <string name="App_ID">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="InterstitialAd">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="Banner_Ads_1">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="Banner_Ads_2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="App_ID">ca-app-pub-3494707665933635~4802672131</string>
+    <string name="Banner_Ads_1">ca-app-pub-3494707665933635/5161764787</string>
+    <string name="Banner_Ads_2">ca-app-pub-3494707665933635/9919267441</string>
+    <string name="InterstitialAd">ca-app-pub-3494707665933635/9815325663</string>
     <string name="bengali_share">കൂട്ടുകാരുമായി പങ്കുവെക്കുക</string>
     <string name="english_share">Invite friends</string>
     <string name="bengali_rate">ഒരു റേറ്റിംഗ് നൽകുക</string>
@@ -34,4 +34,6 @@
     <string name="rss_feed">https://malayalam.news18.com/rss/india.xml</string>
     <string name="election_ml_link">https://www.mathrubhumi.com/result/thrikkakara_byelection/</string>
     <string name="description">Description</string>
+    <string name="share_it">ഇത് പങ്കിടുക</string>
+    <string name="download_text">" - ആപ്പ് ഡൗൺലോഡ് ചെയ്യാൻ താഴെയുള്ള ലിങ്കിൽ പോവുക\n\n"</string>
 </resources>

@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 share.setType("text/plain");
                 share.putExtra("android.intent.extra.SUBJECT", MainActivity.this.appsName);
                 String APP_Download_URL = "https://play.google.com/store/apps/details?id=" + MainActivity.this.packageName;
-                share.putExtra("android.intent.extra.TEXT", MainActivity.this.appsName + " - এপ্সটি ডাউনলোড করতে নিচের লিংকে যান\n\n" + APP_Download_URL);
-                MainActivity.this.startActivity(Intent.createChooser(share, "শেয়ার করুন"));
+                share.putExtra("android.intent.extra.TEXT", MainActivity.this.appsName + getString(R.string.download_text) + APP_Download_URL);
+                MainActivity.this.startActivity(Intent.createChooser(share, getString(R.string.share_it)));
             }
         });
 

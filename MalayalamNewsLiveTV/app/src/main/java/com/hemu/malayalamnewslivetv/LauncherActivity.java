@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,6 +28,8 @@ import java.util.HashMap;
 
 public class LauncherActivity extends AppCompatActivity {
     public static final String TAG = "TAG";
+    TextView textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,10 @@ public class LauncherActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launcher);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
+
+        String versionName = BuildConfig.VERSION_NAME;
+        textView = findViewById(R.id.textView);
+        textView.setText("Version "+versionName);
 
 
         Handler handler = new Handler();
